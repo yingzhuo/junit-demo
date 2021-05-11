@@ -10,7 +10,7 @@ public class EchoServiceImpl implements EchoService {
 
     @Override
     public String echo(String text) {
-        SleepUtils.sleep(Duration.ofSeconds(3L));
+//        SleepUtils.sleep(Duration.ofSeconds(3L));
         return text;
     }
 
